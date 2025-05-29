@@ -1,0 +1,11 @@
+@import "./variables.css";
+
+body {
+  font-family: var(--font-family, "Segoe UI", sans-serif);
+  margin: 0;
+  background-color: var(--color-bg, #fff);
+  color: var(--color-text, #222);
+  line-height: 1.5;
+  width: 980px;
+  margin: 0 auto;
+}
